@@ -4,10 +4,10 @@ import { Shield } from "lucide-react"
 
 const footerLinks = {
   product: [
-    { label: "SSL Generator", href: "#generator" },
-    { label: "SSL Checker", href: "#checker" },
-    { label: "Installation Guides", href: "#guides" },
-    { label: "Features", href: "#features" },
+    { label: "SSL Generator", href: "/ssl-generator#generator" },
+    { label: "SSL Checker", href: "/ssl-generator#checker" },
+    { label: "Installation Guides", href: "/ssl-generator#guides" },
+    { label: "Features", href: "/ssl-generator#features" },
   ],
   company: [
     { label: "About Codeeit", href: "https://codeeit.co.tz" },

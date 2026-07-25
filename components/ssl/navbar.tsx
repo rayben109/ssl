@@ -34,16 +34,16 @@ export function Navbar() {
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex">
-          <Link href="#features" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/ssl-generator#features" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
             Features
           </Link>
-          <Link href="#generator" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/ssl-generator#generator" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
             Generator
           </Link>
-          <Link href="#checker" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/ssl-generator#checker" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
             SSL Checker
           </Link>
-          <Link href="#guides" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+          <Link href="/ssl-generator#guides" className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
             Guides
           </Link>
         </nav>
@@ -59,7 +59,7 @@ export function Navbar() {
             <Moon className="block dark:hidden" />
           </Button>
           <Button size="sm" className="hidden md:inline-flex" asChild>
-            <Link href="#generator">
+            <Link href="/ssl-generator#generator">
               <Shield className="mr-1.5 size-4" />
               Generate SSL
             </Link>
@@ -84,20 +84,20 @@ export function Navbar() {
           className="border-t border-border/50 bg-background/95 backdrop-blur-xl md:hidden"
         >
           <nav className="flex flex-col gap-1 px-4 py-4">
-            <Link href="#features" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="/ssl-generator#features" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
               Features
             </Link>
-            <Link href="#generator" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="/ssl-generator#generator" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
               Generator
             </Link>
-            <Link href="#checker" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="/ssl-generator#checker" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
               SSL Checker
             </Link>
-            <Link href="#guides" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
+            <Link href="/ssl-generator#guides" onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-sm text-muted-foreground transition-colors hover:text-foreground">
               Guides
             </Link>
             <Button size="sm" className="mt-2" asChild>
-              <Link href="#generator" onClick={() => setMobileOpen(false)}>
+              <Link href="/ssl-generator#generator" onClick={() => setMobileOpen(false)}>
                 <Shield className="mr-1.5 size-4" />
                 Generate SSL
               </Link>
