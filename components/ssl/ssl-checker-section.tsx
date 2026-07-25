@@ -70,7 +70,7 @@ export function SSLCheckerSection() {
     setResult(null)
 
     try {
-      const response = await fetch("/api/checker", {
+      const response = await fetch("/api/ssl/checker", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ domain: cleanDomain }),
