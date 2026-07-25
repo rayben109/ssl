@@ -12,8 +12,8 @@ const footerLinks = {
   company: [
     { label: "About Codeeit", href: "https://codeeit.co.tz" },
     { label: "Contact", href: "mailto:support@codeeit.co.tz" },
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
+    { label: "Privacy Policy", href: "/privacy" },
+    { label: "Terms of Service", href: "/terms" },
   ],
 }
 
